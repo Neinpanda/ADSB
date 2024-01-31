@@ -1,190 +1,512 @@
-[
- {
-  "Hex": "a511fd",
-  "Flight": "TAI530"
+{
+ "0d0e7d": {
+  "Flight": "VOI5913",
+  "Altitude": 34000,
+  "Latitude": 31.462509,
+  "Longitude": -113.582369
  },
- {
-  "Hex": "a7ea48",
-  "Flight": "SKW3103"
+ "a6bc3c": {
+  "Flight": "N533GV",
+  "Altitude": 45000,
+  "Latitude": 33.348999,
+  "Longitude": -113.395496
  },
- {
-  "Hex": "a14ad4",
-  "Flight": "UAL1187"
+ "ab4c15": {
+  "Flight": "AAL2032",
+  "Altitude": 15650,
+  "Latitude": 33.277359,
+  "Longitude": -112.94621
  },
- {
-  "Hex": "aa720f",
-  "Flight": "SKW3085"
+ "a99df4": {
+  "Flight": "SKW4818",
+  "Altitude": 21450,
+  "Latitude": 33.495452,
+  "Longitude": -113.026559
  },
- {
-  "Hex": "a35283",
-  "Flight": "FFT3168"
+ "a5a251": {
+  "Flight": "N462PC",
+  "Altitude": 23000,
+  "Latitude": 33.297318,
+  "Longitude": -112.954449
  },
- {
-  "Hex": "a196f3",
-  "Flight": "ENY3430"
+ "a762d3": {
+  "Flight": "AAL2463",
+  "Altitude": 12400,
+  "Latitude": 33.287876,
+  "Longitude": -112.745735
  },
- {
-  "Hex": "abe448",
-  "Flight": "UAL1134"
+ "a10e23": {
+  "Flight": "UAL618",
+  "Altitude": 28000,
+  "Latitude": 33.383401,
+  "Longitude": -112.603529
  },
- {
-  "Hex": "a67960",
-  "Flight": "SKW4844"
+ "a67f3b": {
+  "Flight": "VAR518",
+  "Altitude": 4800,
+  "Latitude": 33.410431,
+  "Longitude": -112.542792
  },
- {
-  "Hex": "ac17b0",
-  "Flight": "SWA1577"
+ "a1515b": {
+  "Flight": "AAL480",
+  "Altitude": 16775,
+  "Latitude": 33.029139,
+  "Longitude": -112.573541
  },
- {
-  "Hex": "a9c2de",
-  "Flight": "SKW4815"
+ "aa01de": {
+  "Flight": "SKW219A",
+  "Altitude": 29225,
+  "Latitude": 32.938176,
+  "Longitude": -112.471469
  },
- {
-  "Hex": "a99df4",
-  "Flight": "SKW4814"
+ "acd2be": {
+  "Flight": "SWA824",
+  "Altitude": 14000,
+  "Latitude": 33.428696,
+  "Longitude": -112.454317
  },
- {
-  "Hex": "a6a4d5",
-  "Flight": "VOI575"
+ "a02443": {
+  "Flight": "AAL1693",
+  "Altitude": 8550,
+  "Latitude": 33.402878,
+  "Longitude": -112.27912
  },
- {
-  "Hex": "aa7abd",
-  "Flight": "UAL1277"
+ "0d0e93": {
+  "Flight": "VOI896",
+  "Altitude": 38000,
+  "Latitude": 34.681836,
+  "Longitude": -112.201023
  },
- {
-  "Hex": "aa6aa1",
-  "Flight": "SKW3081"
+ "a584c3": {
+  "Flight": "VAR455",
+  "Altitude": 1925,
+  "Latitude": 33.322604,
+  "Longitude": -112.224669
  },
- {
-  "Hex": "a9a06e",
-  "Flight": "N7194P"
+ "a88df0": {
+  "Flight": "NKS1112",
+  "Altitude": 38000,
+  "Latitude": 34.469418,
+  "Longitude": -112.218018
  },
- {
-  "Hex": "aa4ce9",
-  "Flight": "ABX105"
+ "a495b4": {
+  "Flight": "DAL756",
+  "Altitude": 10800,
+  "Latitude": 33.600474,
+  "Longitude": -112.151356
  },
- {
-  "Hex": "a05671",
-  "Flight": "AAL843"
+ "a63f4e": {
+  "Flight": "SKW3113",
+  "Altitude": 5450,
+  "Latitude": 33.435633,
+  "Longitude": -112.166879
  },
- {
-  "Hex": "aabd61",
-  "Flight": "SWA1869"
+ "ab8043": {
+  "Flight": "VAR840",
+  "Altitude": 5475,
+  "Latitude": 33.076401,
+  "Longitude": -112.071973
  },
- {
-  "Hex": "a99f16",
-  "Flight": "SKW3068"
+ "a50bc1": {
+  "Flight": "ASI752",
+  "Altitude": 4400,
+  "Latitude": 33.753021,
+  "Longitude": -112.066601
  },
- {
-  "Hex": "a4f179",
-  "Flight": "ASI191"
+ "aaa449": {
+  "Flight": "N785ND",
+  "Altitude": 5350,
+  "Latitude": 33.207713,
+  "Longitude": -112.061163
  },
- {
-  "Hex": "ac07fd",
-  "Flight": "SWA3447"
+ "a4454e": {
+  "Flight": "N3742J",
+  "Altitude": 3400,
+  "Latitude": 33.182761,
+  "Longitude": -112.024561
  },
- {
-  "Hex": "a89be6",
-  "Flight": "N654DE"
+ "a4dd90": {
+  "Flight": "N412WP",
+  "Altitude": 2750,
+  "Latitude": 33.34467,
+  "Longitude": -112.041937
  },
- {
-  "Hex": "a722b1",
-  "Flight": "AAL597"
+ "a5bb1e": {
+  "Flight": "VAR469",
+  "Altitude": 3500,
+  "Latitude": 33.151108,
+  "Longitude": -112.033575
  },
- {
-  "Hex": "abc4d8",
-  "Flight": "SWA4577"
+ "acb5a9": {
+  "Flight": "ASI357",
+  "Altitude": 4500,
+  "Latitude": 33.480606,
+  "Longitude": -111.988147
  },
- {
-  "Hex": "a81e2a",
-  "Flight": "N622FB"
+ "a051c9": {
+  "Flight": "N12EM",
+  "Altitude": 4900,
+  "Latitude": 33.503413,
+  "Longitude": -111.986445
  },
- {
-  "Hex": "a9ef15",
-  "Flight": "N73917"
+ "ad4242": {
+  "Flight": "N95305",
+  "Altitude": 6275,
+  "Latitude": 33.329261,
+  "Longitude": -111.982522
  },
- {
-  "Hex": "a65b65",
-  "Flight": "N509AF"
+ "ac3431": {
+  "Flight": "CXK1026",
+  "Altitude": 7050,
+  "Latitude": 33.119156,
+  "Longitude": -111.993585
  },
- {
-  "Hex": "abb7c7",
-  "Flight": "SCA54"
+ "a67345": {
+  "Flight": "ASI164",
+  "Altitude": 3000,
+  "Latitude": 33.167026,
+  "Longitude": -111.915426
  },
- {
-  "Hex": "a4df59",
-  "Flight": "VAR413"
+ "aafaeb": {
+  "Flight": "N8063C",
+  "Altitude": 5400,
+  "Latitude": 33.796413,
+  "Longitude": -111.938267
  },
- {
-  "Hex": "a91343",
-  "Flight": "NDU684"
+ "ace0df": {
+  "Flight": "ASI301",
+  "Altitude": 6900,
+  "Latitude": 33.155109,
+  "Longitude": -111.940818
  },
- {
-  "Hex": "a7e9de",
-  "Flight": "NDU609"
+ "a3a155": {
+  "Flight": "DAL994",
+  "Altitude": 1625,
+  "Latitude": 33.440781,
+  "Longitude": -111.957935
  },
- {
-  "Hex": "aae89a",
-  "Flight": "N80149"
+ "a2cf8e": {
+  "Flight": "SCA28",
+  "Altitude": 4425,
+  "Latitude": 33.168982,
+  "Longitude": -111.939641
  },
- {
-  "Hex": "ab17ba",
-  "Flight": "N8136Q"
+ "a0d911": {
+  "Flight": "CNS3",
+  "Altitude": 1950,
+  "Latitude": 33.428833,
+  "Longitude": -111.944531
  },
- {
-  "Hex": "a6a303",
-  "Flight": "VAR527"
+ "a9759d": {
+  "Flight": "N7087K",
+  "Altitude": 2800,
+  "Latitude": 33.171112,
+  "Longitude": -111.923108
  },
- {
-  "Hex": "a2f227",
-  "Flight": "OXF4065"
+ "a5408e": {
+  "Flight": "N43779",
+  "Altitude": 3800,
+  "Latitude": 32.888077,
+  "Longitude": -111.902454
  },
- {
-  "Hex": "a4e68c",
-  "Flight": "ASI111"
+ "ad002c": {
+  "Flight": "CFS7801",
+  "Altitude": 3000,
+  "Latitude": 33.400955,
+  "Longitude": -111.899432
  },
- {
-  "Hex": "abab79",
-  "Flight": "VAR851"
+ "ad39f1": {
+  "Flight": "SCA95",
+  "Altitude": 4400,
+  "Latitude": 33.119031,
+  "Longitude": -111.863746
  },
- {
-  "Hex": "a99af5",
-  "Flight": "NDU718"
+ "ab184a": {
+  "Flight": "CXK1130",
+  "Altitude": 6150,
+  "Latitude": 32.749686,
+  "Longitude": -111.873051
  },
- {
-  "Hex": "ab40e7",
-  "Flight": "NDU824"
+ "a65512": {
+  "Flight": "FALCON7",
+  "Altitude": 1775,
+  "Latitude": 33.332985,
+  "Longitude": -111.870304
  },
- {
-  "Hex": "aa779d",
-  "Flight": "SWA1936"
+ "a27547": {
+  "Flight": "AMF2131",
+  "Altitude": 10450,
+  "Latitude": 32.86496,
+  "Longitude": -111.884601
  },
- {
-  "Hex": "a81b24",
-  "Flight": "NDU621"
+ "a43e5e": {
+  "Flight": "UAL2028",
+  "Altitude": 19825,
+  "Latitude": 33.825182,
+  "Longitude": -111.807976
  },
- {
-  "Hex": "a17490",
-  "Flight": "AAY2329"
+ "aaa992": {
+  "Flight": "SWA1553",
+  "Altitude": 3125,
+  "Latitude": 33.440598,
+  "Longitude": -111.861255
  },
- {
-  "Hex": "aca60d",
-  "Flight": "ASH6276"
+ "aa26c1": {
+  "Flight": "SCA75",
+  "Altitude": 2400,
+  "Latitude": 33.415662,
+  "Longitude": -111.831403
  },
- {
-  "Hex": "aaa593",
-  "Flight": "UAL1238"
+ "a2b8dd": {
+  "Flight": "N2748W",
+  "Altitude": 1800,
+  "Latitude": 33.253006,
+  "Longitude": -111.827252
  },
- {
-  "Hex": "abeb31",
-  "Flight": "SWA2968"
+ "a4fbac": {
+  "Flight": "AAL1679",
+  "Altitude": 18300,
+  "Latitude": 33.188114,
+  "Longitude": -111.76997
  },
- {
-  "Hex": "aaa68a",
-  "Flight": "SWA3311"
+ "a145f6": {
+  "Flight": "SCA18",
+  "Altitude": 4425,
+  "Latitude": 33.061586,
+  "Longitude": -111.81257
  },
- {
-  "Hex": "a2ae0a",
-  "Flight": ""
+ "aa80e4": {
+  "Flight": "SCA77",
+  "Altitude": 3425,
+  "Latitude": 33.078344,
+  "Longitude": -111.800126
+ },
+ "a3bb27": {
+  "Flight": "N34C",
+  "Altitude": 1750,
+  "Latitude": 32.957336,
+  "Longitude": -111.783252
+ },
+ "a8bcd7": {
+  "Flight": "NDU662",
+  "Altitude": 5525,
+  "Latitude": 33.201462,
+  "Longitude": -111.761389
+ },
+ "a2d1ad": {
+  "Flight": "OXF6784",
+  "Altitude": 3600,
+  "Latitude": 33.388941,
+  "Longitude": -111.74682
+ },
+ "aa96e8": {
+  "Flight": "N7812N",
+  "Altitude": 2200,
+  "Latitude": 33.471525,
+  "Longitude": -111.736226
+ },
+ "ab3d30": {
+  "Flight": "NDU823",
+  "Altitude": 4900,
+  "Latitude": 33.159256,
+  "Longitude": -111.741724
+ },
+ "a1b051": {
+  "Flight": "N208G",
+  "Altitude": 5100,
+  "Latitude": 33.410614,
+  "Longitude": -111.755292
+ },
+ "a5b767": {
+  "Flight": "VAR468",
+  "Altitude": 3175,
+  "Latitude": 32.941295,
+  "Longitude": -111.756125
+ },
+ "a81b24": {
+  "Flight": "NDU621",
+  "Altitude": 3800,
+  "Latitude": 33.261527,
+  "Longitude": -111.714758
+ },
+ "ac2c56": {
+  "Flight": "SWA3538",
+  "Altitude": 6125,
+  "Latitude": 33.518188,
+  "Longitude": -111.713489
+ },
+ "a00c7a": {
+  "Flight": "DAL843",
+  "Altitude": 34000,
+  "Latitude": 33.217954,
+  "Longitude": -111.737683
+ },
+ "a00ce6": {
+  "Flight": "CXK700",
+  "Altitude": 2400,
+  "Latitude": 33.360451,
+  "Longitude": -111.680398
+ },
+ "ad26b2": {
+  "Flight": "CXK198",
+  "Altitude": 2300,
+  "Latitude": 33.357146,
+  "Longitude": -111.677034
+ },
+ "a9d3a9": {
+  "Flight": "NDU732",
+  "Altitude": 2525,
+  "Latitude": 33.274609,
+  "Longitude": -111.672999
+ },
+ "a8fb79": {
+  "Flight": "N678WW",
+  "Altitude": 3300,
+  "Latitude": 33.080521,
+  "Longitude": -111.651086
+ },
+ "a7d4e5": {
+  "Flight": "N6031F",
+  "Altitude": 4375,
+  "Latitude": 32.983658,
+  "Longitude": -111.668939
+ },
+ "a445f0": {
+  "Flight": "UAL2231",
+  "Altitude": 8125,
+  "Latitude": 33.613815,
+  "Longitude": -111.632977
+ },
+ "a690a8": {
+  "Flight": "DAL446",
+  "Altitude": 35000,
+  "Latitude": 32.849533,
+  "Longitude": -111.554681
+ },
+ "a2c4e0": {
+  "Flight": "GXA692",
+  "Altitude": 2975,
+  "Latitude": 33.23611,
+  "Longitude": -111.577541
+ },
+ "a4e307": {
+  "Flight": "AAL1155",
+  "Altitude": 8775,
+  "Latitude": 33.694463,
+  "Longitude": -111.564102
+ },
+ "a2465a": {
+  "Flight": "AMF2851",
+  "Altitude": 13975,
+  "Latitude": 32.512735,
+  "Longitude": -111.562126
+ },
+ "a39433": {
+  "Flight": "N33HP",
+  "Altitude": 4200,
+  "Latitude": 32.526901,
+  "Longitude": -111.53952
+ },
+ "a047d8": {
+  "Flight": "CXK262",
+  "Altitude": 5875,
+  "Latitude": 32.303994,
+  "Longitude": -111.521824
+ },
+ "ab6eb6": {
+  "Flight": "CXK1059",
+  "Altitude": 5975,
+  "Latitude": 33.189837,
+  "Longitude": -111.442005
+ },
+ "40779a": {
+  "Flight": "BAW9CG",
+  "Altitude": 12375,
+  "Latitude": 33.840917,
+  "Longitude": -111.440506
+ },
+ "abb2d5": {
+  "Flight": "DAL1838",
+  "Altitude": 36000,
+  "Latitude": 33.747812,
+  "Longitude": -111.408749
+ },
+ "a7e158": {
+  "Flight": "ATN4361",
+  "Altitude": 39025,
+  "Latitude": 32.702362,
+  "Longitude": -111.264532
+ },
+ "a0ec6e": {
+  "Flight": "SJA159",
+  "Altitude": 16225,
+  "Latitude": 32.800507,
+  "Longitude": -111.14176
+ },
+ "a2228b": {
+  "Flight": "ASA1423",
+  "Altitude": 35725,
+  "Latitude": 30.579529,
+  "Longitude": -110.985179
+ },
+ "a6dd12": {
+  "Flight": "N541QS",
+  "Altitude": 41000,
+  "Latitude": 30.810883,
+  "Longitude": -110.879517
+ },
+ "ac970e": {
+  "Flight": "N910DZ",
+  "Altitude": 26000,
+  "Latitude": 33.922755,
+  "Longitude": -110.622082
+ },
+ "ac3f2f": {
+  "Flight": "SWA3184",
+  "Altitude": 37000,
+  "Latitude": 32.873749,
+  "Longitude": -110.453412
+ },
+ "a7f6b9": {
+  "Flight": "FFT2106",
+  "Altitude": 2050,
+  "Latitude": 33.430978,
+  "Longitude": -112.035155
+ },
+ "ac8577": {
+  "Flight": "AAL2024",
+  "Altitude": 32975,
+  "Latitude": 33.152828,
+  "Longitude": -113.880634
+ },
+ "a50e46": {
+  "Flight": "VAR425",
+  "Altitude": 1725,
+  "Latitude": 33.458024,
+  "Longitude": -112.334645
+ },
+ "ab096e": {
+  "Flight": "CXK1030",
+  "Altitude": 5400,
+  "Latitude": 32.761459,
+  "Longitude": -111.999023
+ },
+ "a1c767": {
+  "Flight": "N21329",
+  "Altitude": 5150,
+  "Latitude": 32.925886,
+  "Longitude": -111.897097
+ },
+ "a5d778": {
+  "Flight": "VAR476",
+  "Altitude": 4600,
+  "Latitude": 33.289444,
+  "Longitude": -112.798224
+ },
+ "ab767c": {
+  "Flight": "VAR838",
+  "Altitude": 4400,
+  "Latitude": 32.876075,
+  "Longitude": -112.257796
  }
-]
+}

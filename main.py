@@ -1,40 +1,37 @@
-# import urllib library
-from urllib.request import urlopen
-import time
-import os
-
-# import json
+# imports packages
+from urllib.request import (urlopen)
 import json
 
-# empty array for aircraft data
-adsb = []
+# empty list
+airplane = []
 
-# store the URL in url as parameter for urlopen
+# location of adsb json data from my local antenna
 url = "http://adsb.sirver.co:2222/tar1090/data/aircraft.json"
 
-# store the response of URL
-response = urlopen(url)
+first_response = urlopen(url)
 
-# storing the JSON response from url in data
-data_json = json.loads(response.read())
+second_response = first_response.read()
 
-# print the json response
-#print(data_json)
+json_data = json.loads(second_response)
 
-# Check the data for flight number and ICAO hex code and store it in a dictionary and then into a list
-for a in data_json['aircraft']:
-   hex = a.get('hex')
-   lat = a.get('lat')
-   lon = a.get('lon')
-   dirty_flight = a.get('flight')
-   if hex and dirty_flight:
-      flight_number = dirty_flight.replace(' ','')
-      dict = {"Hex": hex, "Flight": flight_number}
-      adsb.append(dict)
-print(adsb)
+for data in json_data['aircraft']:
+    if {'flight', 'hex', 'alt_baro', 'lat', 'lon'} <= data.keys():
+        # print(data['flight'], data['hex'])
+        spaced_flight_number = str(data['flight'])
+        flight_number = spaced_flight_number.replace(' ', '')
+        hex = data['hex']
+        altitude = data['alt_baro']
+        latitude = data['lat']
+        longitude = data['lon']
+        dict = {'Hex': hex, 'Flight': flight_number, 'Altitude': altitude, 'Latitude': latitude, 'Longitude': longitude}
+        airplane.append(dict)
+        # print(hex)
+        # airplane.append(flight_number)
+
+print(airplane)
 
 # create json object from the stored adsb list
-json_object = json.dumps(adsb, indent=1)
+json_object = json.dumps(airplane, indent=1)
 
 # create the json file from the object
 with open("flights.json", "w") as outfile:
