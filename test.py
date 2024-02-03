@@ -51,7 +51,7 @@ American = 0
 Southwest = 0
 Other = 0
 Frontier = 0
-Airlines = []
+airlines = []
 
 for hex in airplane.keys():
     # print(airplane[hex])
@@ -67,7 +67,12 @@ for hex in airplane.keys():
         Frontier += 1
     else:
         Other += 1
+dict = {'Southwest': Southwest, 'Delta': Delta, 'Frontier': Frontier, 'American': American, 'Other': Other}
+airlines.append(dict)
+print(airlines)
+# print(f'Southwest:{Southwest} \nAmerican:{American} \nDelta:{American} \nOther:{Other} \nFrontier:{Frontier}')
+another_json_object = json.dumps(airlines, indent=1)
 
-
-
-print(f'Southwest:{Southwest} \nAmerican:{American} \nDelta:{American} \nOther:{Other} \nFrontier:{Frontier}')
+# create the json file from the object
+with open("airlines.json", "w") as outfile:
+   outfile.write(another_json_object)
