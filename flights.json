@@ -1,200 +1,164 @@
 {
- "0d0e7e": {
-  "Flight": "VOI936",
+ "a69242": {
+  "Flight": "VOI5551",
   "Altitude": 36000,
-  "Latitude": 30.573166,
-  "Longitude": -113.537993
+  "Latitude": 30.870977,
+  "Longitude": -113.466248
  },
- "a6d234": {
-  "Flight": "DAL551",
-  "Altitude": 34975,
-  "Latitude": 33.134533,
-  "Longitude": -113.27661
- },
- "a4380f": {
-  "Flight": "FFT3168",
-  "Altitude": 21925,
-  "Latitude": 33.123174,
-  "Longitude": -113.174314
- },
- "a3ad89": {
-  "Flight": "TNO7051",
-  "Altitude": 39000,
-  "Latitude": 30.704269,
-  "Longitude": -113.044685
- },
- "a9bb70": {
-  "Flight": "SKW4816",
-  "Altitude": 16000,
-  "Latitude": 33.13884,
-  "Longitude": -112.462042
- },
- "a65d06": {
-  "Flight": "SKW3079",
-  "Altitude": 8550,
-  "Latitude": 33.363942,
-  "Longitude": -112.179939
- },
- "aced23": {
-  "Flight": "AAL2585",
-  "Altitude": 10675,
-  "Latitude": 33.542496,
-  "Longitude": -112.149615
- },
- "ad7f96": {
-  "Flight": "SWA2402",
+ "a684c4": {
+  "Flight": "VOI254",
   "Altitude": 38000,
-  "Latitude": 34.374847,
-  "Longitude": -112.126072
+  "Latitude": 31.399112,
+  "Longitude": -113.34798
  },
- "a57d42": {
-  "Flight": "AAL2701",
-  "Altitude": 4575,
-  "Latitude": 33.432953,
-  "Longitude": -112.106799
+ "a699b0": {
+  "Flight": "VOC4092",
+  "Altitude": 38000,
+  "Latitude": 31.263692,
+  "Longitude": -113.106445
+ },
+ "a4e6c0": {
+  "Flight": "AAL1278",
+  "Altitude": 37000,
+  "Latitude": 34.02832,
+  "Longitude": -112.234534
+ },
+ "ac90a7": {
+  "Flight": "AAL2232",
+  "Altitude": 9150,
+  "Latitude": 33.277309,
+  "Longitude": -112.139413
  },
  "a821e1": {
   "Flight": "N623FB",
-  "Altitude": 1925,
-  "Latitude": 33.361221,
-  "Longitude": -112.066644
+  "Altitude": 1900,
+  "Latitude": 33.560067,
+  "Longitude": -112.096081
  },
- "ace96c": {
-  "Flight": "AAL1614",
-  "Altitude": 1775,
-  "Latitude": 33.440893,
-  "Longitude": -112.029382
+ "a79d6c": {
+  "Flight": "N590AE",
+  "Altitude": 1600,
+  "Latitude": 33.63888,
+  "Longitude": -111.996517
  },
- "ab398f": {
-  "Flight": "ASI524",
-  "Altitude": 4025,
-  "Latitude": 33.557281,
-  "Longitude": -111.996142
+ "a657f4": {
+  "Flight": "DAL979",
+  "Altitude": 14625,
+  "Latitude": 33.681056,
+  "Longitude": -111.987247
  },
- "a448ba": {
-  "Flight": "DAL2261",
-  "Altitude": 8400,
-  "Latitude": 33.638718,
-  "Longitude": -111.955672
+ "a7ea48": {
+  "Flight": "SKW3247",
+  "Altitude": 8225,
+  "Latitude": 33.652908,
+  "Longitude": -111.96167
+ },
+ "abf9b1": {
+  "Flight": "SWA3858",
+  "Altitude": 6275,
+  "Latitude": 33.345368,
+  "Longitude": -111.92574
+ },
+ "ac3f2f": {
+  "Flight": "SWA138",
+  "Altitude": 2250,
+  "Latitude": 33.440689,
+  "Longitude": -111.92536
  },
  "a4ed9c": {
   "Flight": "ASI204",
-  "Altitude": 3100,
-  "Latitude": 32.909034,
-  "Longitude": -111.862008
+  "Altitude": 3600,
+  "Latitude": 32.880753,
+  "Longitude": -111.909814
  },
- "a988cc": {
-  "Flight": "SKW3143",
-  "Altitude": 19625,
-  "Latitude": 33.785752,
-  "Longitude": -111.858101
+ "a3764b": {
+  "Flight": "FFT3162",
+  "Altitude": 6725,
+  "Latitude": 33.529907,
+  "Longitude": -111.900146
  },
  "a65512": {
   "Flight": "FALCON7",
-  "Altitude": 2025,
-  "Latitude": 33.409191,
-  "Longitude": -111.838634
+  "Altitude": 1925,
+  "Latitude": 33.378387,
+  "Longitude": -111.865155
  },
- "a4b453": {
-  "Flight": "N402CT",
-  "Altitude": 1350,
-  "Latitude": 33.26311,
-  "Longitude": -111.821482
- },
- "a3f401": {
-  "Flight": "DAL1446",
-  "Altitude": 4075,
-  "Latitude": 33.440369,
-  "Longitude": -111.810608
- },
- "abe105": {
-  "Flight": "ASI155",
+ "a4380f": {
+  "Flight": "FFT3168",
   "Altitude": 3600,
-  "Latitude": 32.943762,
-  "Longitude": -111.750632
+  "Latitude": 33.427952,
+  "Longitude": -111.854273
  },
- "a3f798": {
-  "Flight": "N355CF",
-  "Altitude": 2600,
-  "Latitude": 33.207779,
-  "Longitude": -111.711951
+ "a8c6e1": {
+  "Flight": "AAL1875",
+  "Altitude": 33975,
+  "Latitude": 34.868912,
+  "Longitude": -111.743681
  },
- "a3b796": {
-  "Flight": "DAL339",
-  "Altitude": 6025,
-  "Latitude": 33.444855,
-  "Longitude": -111.675751
- },
- "ad2573": {
-  "Flight": "SWA3969",
-  "Altitude": 8600,
-  "Latitude": 33.22261,
-  "Longitude": -111.641089
- },
- "adb0b4": {
-  "Flight": "AAL2097",
-  "Altitude": 7825,
-  "Latitude": 33.492706,
-  "Longitude": -111.602148
- },
- "a44981": {
-  "Flight": "UAL2129",
-  "Altitude": 33000,
-  "Latitude": 33.574127,
-  "Longitude": -111.582361
- },
- "aa02ab": {
-  "Flight": "AAL691",
-  "Altitude": 23825,
-  "Latitude": 33.09874,
-  "Longitude": -111.484314
- },
- "a66ac3": {
-  "Flight": "VOI477",
-  "Altitude": 36000,
-  "Latitude": 30.910721,
-  "Longitude": -111.157945
- },
- "c01d2d": {
-  "Flight": "FLE2501",
-  "Altitude": 38000,
-  "Latitude": 34.808179,
-  "Longitude": -111.150227
- },
- "a220cb": {
-  "Flight": "SWA3092",
-  "Altitude": 31250,
-  "Latitude": 32.829758,
-  "Longitude": -111.012451
- },
- "ad73a9": {
-  "Flight": "AAL639",
-  "Altitude": 36125,
-  "Latitude": 34.028641,
-  "Longitude": -110.947396
- },
- "acf54f": {
-  "Flight": "JBU2985",
-  "Altitude": 35000,
-  "Latitude": 32.689362,
-  "Longitude": -110.786407
- },
- "aa6ed1": {
-  "Flight": "AAL1022",
-  "Altitude": 29800,
-  "Latitude": 32.924396,
-  "Longitude": -110.784395
+ "a1fc27": {
+  "Flight": "N227MT",
+  "Altitude": 2900,
+  "Latitude": 32.969879,
+  "Longitude": -111.719751
  },
  "acd935": {
   "Flight": "ASH6205",
-  "Altitude": 28600,
-  "Latitude": 32.453101,
-  "Longitude": -110.630474
+  "Altitude": 8050,
+  "Latitude": 33.257058,
+  "Longitude": -111.658649
  },
- "acd1f3": {
-  "Flight": "NKS310",
-  "Altitude": 36975,
-  "Latitude": 32.714767,
-  "Longitude": -110.432428
+ "a2d090": {
+  "Flight": "OXF4955",
+  "Altitude": 4525,
+  "Latitude": 32.927994,
+  "Longitude": -111.544849
+ },
+ "a5031a": {
+  "Flight": "AAL1187",
+  "Altitude": 18525,
+  "Latitude": 33.436564,
+  "Longitude": -111.519078
+ },
+ "aa7e16": {
+  "Flight": "SWA3683",
+  "Altitude": 12200,
+  "Latitude": 33.821548,
+  "Longitude": -111.455458
+ },
+ "a81b2a": {
+  "Flight": "NKS1272",
+  "Altitude": 35025,
+  "Latitude": 34.53366,
+  "Longitude": -111.425056
+ },
+ "ad73a9": {
+  "Flight": "AAL639",
+  "Altitude": 13975,
+  "Latitude": 32.366547,
+  "Longitude": -111.407629
+ },
+ "ada6ed": {
+  "Flight": "AAL2156",
+  "Altitude": 20575,
+  "Latitude": 33.742505,
+  "Longitude": -111.114922
+ },
+ "a65d06": {
+  "Flight": "SKW3079",
+  "Altitude": 9825,
+  "Latitude": 32.045929,
+  "Longitude": -111.087708
+ },
+ "a09b65": {
+  "Flight": "GTI3857",
+  "Altitude": 40025,
+  "Latitude": 34.863739,
+  "Longitude": -111.063594
+ },
+ "a6d234": {
+  "Flight": "DAL551",
+  "Altitude": 35000,
+  "Latitude": 32.703781,
+  "Longitude": -110.42644
  }
 }

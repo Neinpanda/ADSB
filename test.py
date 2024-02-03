@@ -46,24 +46,28 @@ json_object = json.dumps(airplane, indent=1)
 # create the json file from the object
 with open("flights.json", "w") as outfile:
    outfile.write(json_object)
+Delta = 0
+American = 0
+Southwest = 0
+Other = 0
+Frontier = 0
+Airlines = []
 
 for hex in airplane.keys():
     # print(airplane[hex])
 
-    Delta = 0
-    American = 0
-    Southwest = 0
-    Other = 0
-
-
     airline = airplane[hex]['Flight']
-    print(airline)
     if 'SWA' in airline:
         Southwest += 1
     elif 'AAL' in airline:
         American += 1
     elif 'DAL' in airline:
         Delta += 1
+    elif 'FFT' in airline:
+        Frontier += 1
     else:
-        Southwest += 1
-print(Southwest, American, Delta, Other)
+        Other += 1
+
+
+
+print(f'Southwest:{Southwest} \nAmerican:{American} \nDelta:{American} \nOther:{Other} \nFrontier:{Frontier}')
