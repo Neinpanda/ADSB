@@ -8,7 +8,7 @@ airplane = {}
 loop_count = 0
 primary_key = 'Hex'
 
-while loop_count < 10:
+while loop_count < 2:
     first_response = urlopen(url)
     second_response = first_response.read()
     json_data = json.loads(second_response)
@@ -38,7 +38,7 @@ while loop_count < 10:
 
 # print(airplane)
 
-print(airplane.keys())
+# print(airplane[list(airplane.keys())[1]])
 
 # create json object from the stored adsb list
 json_object = json.dumps(airplane, indent=1)
@@ -46,3 +46,24 @@ json_object = json.dumps(airplane, indent=1)
 # create the json file from the object
 with open("flights.json", "w") as outfile:
    outfile.write(json_object)
+
+for hex in airplane.keys():
+    # print(airplane[hex])
+
+    Delta = 0
+    American = 0
+    Southwest = 0
+    Other = 0
+
+
+    airline = airplane[hex]['Flight']
+    print(airline)
+    if 'SWA' in airline:
+        Southwest += 1
+    elif 'AAL' in airline:
+        American += 1
+    elif 'DAL' in airline:
+        Delta += 1
+    else:
+        Southwest += 1
+print(Southwest, American, Delta, Other)
