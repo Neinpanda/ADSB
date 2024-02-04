@@ -8,7 +8,7 @@ airplane = {}
 loop_count = 0
 primary_key = 'Hex'
 
-while loop_count < 2:
+while loop_count < 20:
     first_response = urlopen(url)
     second_response = first_response.read()
     json_data = json.loads(second_response)
@@ -46,6 +46,7 @@ json_object = json.dumps(airplane, indent=1)
 # create the json file from the object
 with open("flights.json", "w") as outfile:
    outfile.write(json_object)
+
 Delta = 0
 American = 0
 Southwest = 0
@@ -67,10 +68,13 @@ for hex in airplane.keys():
         Frontier += 1
     else:
         Other += 1
+
 dict = {'Southwest': Southwest, 'Delta': Delta, 'Frontier': Frontier, 'American': American, 'Other': Other}
 airlines.append(dict)
+
 print(airlines)
 # print(f'Southwest:{Southwest} \nAmerican:{American} \nDelta:{American} \nOther:{Other} \nFrontier:{Frontier}')
+
 another_json_object = json.dumps(airlines, indent=1)
 
 # create the json file from the object

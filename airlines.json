@@ -1,9 +1,9 @@
 [
  {
-  "Southwest": 0,
+  "Southwest": 9,
   "Delta": 2,
-  "Frontier": 0,
-  "American": 3,
-  "Other": 14
+  "Frontier": 1,
+  "American": 18,
+  "Other": 96
  }
 ]
