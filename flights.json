@@ -1,146 +1,490 @@
 {
- "a923cd": {
-  "Name": "United Airlines",
-  "Flight": "UAL1266",
-  "Altitude": 31000,
-  "Latitude": 33.235977,
-  "Longitude": -113.135339,
-  "Ground Speed": 519.1
- },
- "a56c19": {
+ "ab3fcc": {
   "Name": "American Airlines",
-  "Flight": "AAL2637",
-  "Altitude": 30000,
-  "Latitude": 33.498184,
-  "Longitude": -113.041681,
-  "Ground Speed": 389.0
+  "Flight": "AAL1813",
+  "Altitude": 27975,
+  "Latitude": 33.526456,
+  "Longitude": -113.195614,
+  "Ground Speed": 387.0
  },
- "a081ca": {
-  "Name": "United Airlines",
-  "Flight": "UAL587",
-  "Altitude": 37975,
-  "Latitude": 33.431992,
-  "Longitude": -112.71264,
-  "Ground Speed": 398.1
+ "a675a9": {
+  "Name": "SkyWest",
+  "Flight": "SKW219A",
+  "Altitude": 33475,
+  "Latitude": 33.039706,
+  "Longitude": -113.153967,
+  "Ground Speed": 487.8
  },
- "ac1466": {
-  "Name": "Delta Air Lines",
-  "Flight": "DAL614",
-  "Altitude": 32000,
-  "Latitude": 32.734835,
-  "Longitude": -112.590357,
-  "Ground Speed": 379.3
+ "a2404a": {
+  "Name": "NetJets",
+  "Flight": "EJA244",
+  "Altitude": 39000,
+  "Latitude": 33.227371,
+  "Longitude": -113.062665,
+  "Ground Speed": 492.4
  },
- "a1f116": {
-  "Name": "Envoy Air",
-  "Flight": "ENY3430",
-  "Altitude": 28000,
-  "Latitude": 33.871033,
-  "Longitude": -112.58918,
-  "Ground Speed": 373.6
- },
- "ac18fe": {
-  "Name": "American Airlines",
-  "Flight": "AAL820",
-  "Altitude": 16275,
-  "Latitude": 33.409191,
-  "Longitude": -112.29126,
-  "Ground Speed": 382.6
- },
- "a14b1a": {
-  "Name": "United Airlines",
-  "Flight": "UAL1578",
-  "Altitude": 4425,
-  "Latitude": 33.428836,
-  "Longitude": -112.227304,
-  "Ground Speed": 226.0
- },
- "ab5bd4": {
-  "Name": "Southwest Airlines",
-  "Flight": "SWA1516",
-  "Altitude": 4725,
-  "Latitude": 33.46389,
-  "Longitude": -112.188011,
-  "Ground Speed": 190.0
- },
- "aa96e8": {
+ "a1d61f": {
   "Name": "Unknown",
-  "Flight": "N7812N",
-  "Altitude": 9200,
-  "Latitude": 34.046677,
-  "Longitude": -112.14941,
+  "Flight": "N21718",
+  "Altitude": 5300,
+  "Latitude": 33.166188,
+  "Longitude": -112.465808,
+  "Ground Speed": 103.8
+ },
+ "a49f89": {
+  "Name": "United Airlines",
+  "Flight": "UAL618",
+  "Altitude": 34000,
+  "Latitude": 34.699619,
+  "Longitude": -112.462635,
+  "Ground Speed": 428.1
+ },
+ "a075a3": {
+  "Name": "Federal Express",
+  "Flight": "FDX906",
+  "Altitude": 30025,
+  "Latitude": 33.010712,
+  "Longitude": -112.47616,
+  "Ground Speed": 474.4
+ },
+ "aaa954": {
+  "Name": "Southwest Airlines",
+  "Flight": "SWA594",
+  "Altitude": 26575,
+  "Latitude": 34.661307,
+  "Longitude": -112.439861,
+  "Ground Speed": 446.7
+ },
+ "aacc07": {
+  "Name": "NetJets",
+  "Flight": "EJA795",
+  "Altitude": 41000,
+  "Latitude": 34.51909,
+  "Longitude": -112.374687,
+  "Ground Speed": 512.7
+ },
+ "a8f701": {
+  "Name": "Unknown",
+  "Flight": "N677PC",
+  "Altitude": 6200,
+  "Latitude": 33.662247,
+  "Longitude": -112.375843,
+  "Ground Speed": 147.9
+ },
+ "a84f8b": {
+  "Name": "Unknown",
+  "Flight": "N6344Q",
+  "Altitude": 7400,
+  "Latitude": 33.038681,
+  "Longitude": -112.280054,
+  "Ground Speed": 117.7
+ },
+ "a63f4e": {
+  "Name": "SkyWest",
+  "Flight": "SKW4846",
+  "Altitude": 12225,
+  "Latitude": 33.666671,
+  "Longitude": -112.247028,
+  "Ground Speed": 298.9
+ },
+ "ac212d": {
+  "Name": "Southwest Airlines",
+  "Flight": "SWA996",
+  "Altitude": 12100,
+  "Latitude": 33.571053,
+  "Longitude": -112.221851,
+  "Ground Speed": 275.5
+ },
+ "a1ea70": {
+  "Name": "Southwest Airlines",
+  "Flight": "SWA3359",
+  "Altitude": 9325,
+  "Latitude": 33.339223,
+  "Longitude": -112.185488,
+  "Ground Speed": 268.5
+ },
+ "a7fb7d": {
+  "Name": "SkyWest",
+  "Flight": "SKW4818",
+  "Altitude": 5600,
+  "Latitude": 33.397156,
+  "Longitude": -112.172333,
+  "Ground Speed": 272.9
+ },
+ "a80bef": {
+  "Name": "Unknown",
+  "Flight": "N6176F",
+  "Altitude": 7300,
+  "Latitude": 32.956421,
+  "Longitude": -112.139264,
+  "Ground Speed": 105.1
+ },
+ "a97029": {
+  "Name": "SkyWest",
+  "Flight": "SKW4811",
+  "Altitude": 3625,
+  "Latitude": 33.432048,
+  "Longitude": -112.102811,
+  "Ground Speed": 212.0
+ },
+ "a43ea3": {
+  "Name": "United Airlines",
+  "Flight": "UAL1108",
+  "Altitude": 12275,
+  "Latitude": 33.595214,
+  "Longitude": -112.066154,
+  "Ground Speed": 347.7
+ },
+ "a5cc53": {
+  "Name": "Unknown",
+  "Flight": "VAR473",
+  "Altitude": 1325,
+  "Latitude": 33.688248,
+  "Longitude": -112.071645,
+  "Ground Speed": 73.2
+ },
+ "aa95ee": {
+  "Name": "Unknown",
+  "Flight": "N781TH",
+  "Altitude": 1450,
+  "Latitude": 33.69032,
+  "Longitude": -112.067986,
+  "Ground Speed": 81.0
+ },
+ "aa2abc": {
+  "Name": "American Airlines",
+  "Flight": "AAL1548",
+  "Altitude": 2150,
+  "Latitude": 33.431024,
+  "Longitude": -112.042946,
+  "Ground Speed": 167.1
+ },
+ "a2cd75": {
+  "Name": "Unknown",
+  "Flight": "NJZ28",
+  "Altitude": "ground",
+  "Latitude": 33.425554,
+  "Longitude": -112.020918,
+  "Ground Speed": 0.0
+ },
+ "c06539": {
+  "Name": "Unknown",
+  "Flight": "ACA979",
+  "Altitude": 38000,
+  "Latitude": 34.437286,
+  "Longitude": -112.016546,
+  "Ground Speed": 408.3
+ },
+ "a213b9": {
+  "Name": "Unknown",
+  "Flight": "N233AV",
+  "Altitude": 5275,
+  "Latitude": 33.159622,
+  "Longitude": -112.004187,
+  "Ground Speed": 134.7
+ },
+ "aa0663": {
+  "Name": "Unknown",
+  "Flight": "ASI604",
+  "Altitude": 4375,
+  "Latitude": 33.44769,
+  "Longitude": -111.990817,
+  "Ground Speed": 123.0
+ },
+ "a07522": {
+  "Name": "American Airlines",
+  "Flight": "AAL1454",
+  "Altitude": 1650,
+  "Latitude": 33.428787,
+  "Longitude": -111.95755,
+  "Ground Speed": 150.0
+ },
+ "ac2f5a": {
+  "Name": "Southwest Airlines",
+  "Flight": "SWA3096",
+  "Altitude": 1625,
+  "Latitude": 33.4408,
+  "Longitude": -111.952029,
+  "Ground Speed": 143.0
+ },
+ "ad9711": {
+  "Name": "Unknown",
+  "Flight": "JRE975",
+  "Altitude": 4200,
+  "Latitude": 33.522918,
+  "Longitude": -111.940314,
+  "Ground Speed": 211.6
+ },
+ "a00920": {
+  "Name": "Unknown",
+  "Flight": "N101HF",
+  "Altitude": 1500,
+  "Latitude": 33.292392,
+  "Longitude": -111.915763,
+  "Ground Speed": 112.3
+ },
+ "a50b2e": {
+  "Name": "Unknown",
+  "Flight": "N424HD",
+  "Altitude": 2800,
+  "Latitude": 33.633154,
+  "Longitude": -111.911602,
+  "Ground Speed": 69.6
+ },
+ "a2d370": {
+  "Name": "Unknown",
+  "Flight": "ASI993",
+  "Altitude": 4825,
+  "Latitude": 33.199631,
+  "Longitude": -111.900146,
+  "Ground Speed": 94.0
+ },
+ "a2d096": {
+  "Name": "Unknown",
+  "Flight": "OXF5147",
+  "Altitude": 3550,
+  "Latitude": 32.890739,
+  "Longitude": -111.897321,
+  "Ground Speed": 93.9
+ },
+ "c07444": {
+  "Name": "Unknown",
+  "Flight": "CNK91",
+  "Altitude": 36000,
+  "Latitude": 34.496838,
+  "Longitude": -111.901302,
+  "Ground Speed": 426.3
+ },
+ "ad3127": {
+  "Name": "Unknown",
+  "Flight": "N9491W",
+  "Altitude": 7500,
+  "Latitude": 33.942773,
+  "Longitude": -111.893406,
   "Ground Speed": 106.2
  },
- "a77b76": {
-  "Name": "American Airlines",
-  "Flight": "AAL1956",
-  "Altitude": 7850,
-  "Latitude": 33.558472,
-  "Longitude": -112.011781,
-  "Ground Speed": 240.5
+ "a0d21f": {
+  "Name": "Federal Express",
+  "Flight": "FDX509",
+  "Altitude": 3200,
+  "Latitude": 33.42865,
+  "Longitude": -111.865704,
+  "Ground Speed": 188.0
  },
- "a4ebb0": {
+ "a69419": {
   "Name": "Unknown",
-  "Flight": "ASI827",
-  "Altitude": 4400,
-  "Latitude": 33.258453,
-  "Longitude": -111.904376,
-  "Ground Speed": 72.4
+  "Flight": "N523AF",
+  "Altitude": 2125,
+  "Latitude": 33.251953,
+  "Longitude": -111.849829,
+  "Ground Speed": 79.2
  },
- "a6aa6e": {
-  "Name": "Alaska Airlines",
-  "Flight": "ASA619",
-  "Altitude": 13975,
-  "Latitude": 33.699097,
-  "Longitude": -111.847098,
-  "Ground Speed": 338.7
+ "a72c10": {
+  "Name": "NetJets",
+  "Flight": "EJA561",
+  "Altitude": 5875,
+  "Latitude": 33.189371,
+  "Longitude": -111.839531,
+  "Ground Speed": 271.4
  },
- "a49a2c": {
+ "a2ca97": {
   "Name": "Unknown",
-  "Flight": "N396MF",
-  "Altitude": 7975,
-  "Latitude": 33.772904,
-  "Longitude": -111.749039,
-  "Ground Speed": 267.2
+  "Flight": "N2792P",
+  "Altitude": 1500,
+  "Latitude": 33.278275,
+  "Longitude": -111.798248,
+  "Ground Speed": 46.0
  },
- "a283f4": {
-  "Name": "Allegiant Air",
-  "Flight": "AAY646",
-  "Altitude": 3250,
-  "Latitude": 33.397247,
-  "Longitude": -111.737769,
-  "Ground Speed": 156.0
+ "aa7734": {
+  "Name": "Southwest Airlines",
+  "Flight": "SWA1076",
+  "Altitude": 4850,
+  "Latitude": 33.34346,
+  "Longitude": -111.776276,
+  "Ground Speed": 183.0
  },
- "a1fec9": {
+ "a4454e": {
   "Name": "Unknown",
-  "Flight": "N228AR",
+  "Flight": "N3742J",
+  "Altitude": 1600,
+  "Latitude": 33.275391,
+  "Longitude": -111.776715,
+  "Ground Speed": 67.6
+ },
+ "aa6466": {
+  "Name": "NetJets",
+  "Flight": "EJA769",
+  "Altitude": 4950,
+  "Latitude": 33.427689,
+  "Longitude": -111.76084,
+  "Ground Speed": 170.2
+ },
+ "ad3408": {
+  "Name": "Unknown",
+  "Flight": "ASI642",
+  "Altitude": 2000,
+  "Latitude": 32.963882,
+  "Longitude": -111.740076,
+  "Ground Speed": 81.6
+ },
+ "a54cf9": {
+  "Name": "Unknown",
+  "Flight": "OXF1010",
+  "Altitude": 2200,
+  "Latitude": 33.489168,
+  "Longitude": -111.715486,
+  "Ground Speed": 96.9
+ },
+ "a65512": {
+  "Name": "Friendship Air Alaska",
+  "Flight": "FALCON7",
   "Altitude": 1725,
-  "Latitude": 33.328354,
-  "Longitude": -111.686847,
-  "Ground Speed": 57.3
+  "Latitude": 33.264771,
+  "Longitude": -111.654218,
+  "Ground Speed": 71.0
  },
- "aa1a6a": {
-  "Name": "L J Aviation",
-  "Flight": "LJY263",
-  "Altitude": 21800,
-  "Latitude": 33.744646,
-  "Longitude": -111.108971,
-  "Ground Speed": 412.2
- },
- "ad9edc": {
-  "Name": "Spirit Airlines",
-  "Flight": "NKS504",
-  "Altitude": 34975,
-  "Latitude": 32.749686,
-  "Longitude": -110.843307,
-  "Ground Speed": 503.3
- },
- "a67345": {
+ "ab2f84": {
   "Name": "Unknown",
-  "Flight": "ASI164",
-  "Altitude": 1900,
-  "Latitude": 33.674446,
-  "Longitude": -112.054024,
-  "Ground Speed": 83.2
+  "Flight": "JUMP16",
+  "Altitude": 14600,
+  "Latitude": 32.827194,
+  "Longitude": -111.578467,
+  "Ground Speed": 66.5
+ },
+ "a3612a": {
+  "Name": "Delta Air Lines",
+  "Flight": "DAL947",
+  "Altitude": 34000,
+  "Latitude": 33.444443,
+  "Longitude": -111.496124,
+  "Ground Speed": 437.4
+ },
+ "a7f762": {
+  "Name": "Spirit Airlines",
+  "Flight": "NKS816",
+  "Altitude": 35025,
+  "Latitude": 34.84639,
+  "Longitude": -111.450806,
+  "Ground Speed": 455.7
+ },
+ "ab5f00": {
+  "Name": "Southwest Airlines",
+  "Flight": "SWA1341",
+  "Altitude": 37000,
+  "Latitude": 32.628417,
+  "Longitude": -111.378105,
+  "Ground Speed": 494.0
+ },
+ "aa9afc": {
+  "Name": "Southwest Airlines",
+  "Flight": "SWA1444",
+  "Altitude": 25950,
+  "Latitude": 33.067703,
+  "Longitude": -111.35473,
+  "Ground Speed": 456.3
+ },
+ "a67587": {
+  "Name": "Unknown",
+  "Flight": "CBC515",
+  "Altitude": 22500,
+  "Latitude": 32.593782,
+  "Longitude": -111.340046,
+  "Ground Speed": 158.2
+ },
+ "a53183": {
+  "Name": "Unknown",
+  "Flight": "N4336X",
+  "Altitude": 8225,
+  "Latitude": 33.652817,
+  "Longitude": -111.300584,
+  "Ground Speed": 97.4
+ },
+ "ab503a": {
+  "Name": "Sun Country Airlines",
+  "Flight": "SCX599",
+  "Altitude": 9425,
+  "Latitude": 33.565095,
+  "Longitude": -111.270504,
+  "Ground Speed": 271.2
+ },
+ "a46449": {
+  "Name": "Unknown",
+  "Flight": "N382SA",
+  "Altitude": 6700,
+  "Latitude": 32.254578,
+  "Longitude": -111.257886,
+  "Ground Speed": 256.1
+ },
+ "adea26": {
+  "Name": "American Airlines",
+  "Flight": "AAL2675",
+  "Altitude": 21025,
+  "Latitude": 32.58078,
+  "Longitude": -111.072327,
+  "Ground Speed": 327.1
+ },
+ "abb1de": {
+  "Name": "Southwest Airlines",
+  "Flight": "SWA1467",
+  "Altitude": 29025,
+  "Latitude": 33.601917,
+  "Longitude": -110.966034,
+  "Ground Speed": 469.0
+ },
+ "a75eb4": {
+  "Name": "NetJets",
+  "Flight": "EJA574",
+  "Altitude": 40000,
+  "Latitude": 33.045547,
+  "Longitude": -110.865839,
+  "Ground Speed": 375.0
+ },
+ "a6692d": {
+  "Name": "Delta Air Lines",
+  "Flight": "DAL446",
+  "Altitude": 35000,
+  "Latitude": 32.664047,
+  "Longitude": -110.717303,
+  "Ground Speed": 480.0
+ },
+ "abba43": {
+  "Name": "Delta Air Lines",
+  "Flight": "DAL1838",
+  "Altitude": 34000,
+  "Latitude": 31.575302,
+  "Longitude": -110.591179,
+  "Ground Speed": 413.7
+ },
+ "a97da7": {
+  "Name": "SkyWest",
+  "Flight": "SKW3244",
+  "Altitude": 37000,
+  "Latitude": 32.636238,
+  "Longitude": -110.48939,
+  "Ground Speed": 439.3
+ },
+ "ac7c52": {
+  "Name": "Southwest Airlines",
+  "Flight": "SWA3180",
+  "Altitude": 39000,
+  "Latitude": 32.941713,
+  "Longitude": -110.469827,
+  "Ground Speed": 494.5
+ },
+ "ace19a": {
+  "Name": "Southwest Airlines",
+  "Flight": "SWA32",
+  "Altitude": 40000,
+  "Latitude": 32.553375,
+  "Longitude": -110.448191,
+  "Ground Speed": 403.0
+ },
+ "ac0b61": {
+  "Name": "United Airlines",
+  "Flight": "UAL271",
+  "Altitude": 38000,
+  "Latitude": 33.062144,
+  "Longitude": -110.351332,
+  "Ground Speed": 406.0
  }
 }

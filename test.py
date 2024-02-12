@@ -11,7 +11,7 @@ for airline in airline_list:
     if airline['country'] == 'United States' or airline['country'] == 'Mexico':
         if airline['icao'] != '':
             organized_airline[airline['icao']] = airline['name']
-print(organized_airline)
+# print(organized_airline)
 
 url = "http://adsb.sirver.co:2222/tar1090/data/aircraft.json"
 
@@ -64,36 +64,32 @@ json_object = json.dumps(airplane, indent=1)
 with open("flights.json", "w") as outfile:
    outfile.write(json_object)
 
-Delta = 0
-American = 0
-Southwest = 0
-Other = 0
-Frontier = 0
-airlines = []
+def countoccurrences(store, value):
+    try:
+        store[value] = store[value] + 1
+    except KeyError as e:
+        store[value] = 1
+    return
 
-for hex in airplane.keys():
-    # print(airplane[hex])
+store = {}
+for hex in airplane:
+    a = airplane[hex]['Name']
+    countoccurrences(store, a)
 
-    airline = airplane[hex]['Flight']
-    if 'SWA' in airline:
-        Southwest += 1
-    elif 'AAL' in airline:
-        American += 1
-    elif 'DAL' in airline:
-        Delta += 1
-    elif 'FFT' in airline:
-        Frontier += 1
-    else:
-        Other += 1
+# print(store)
 
-dict = {'Southwest': Southwest, 'Delta': Delta, 'Frontier': Frontier, 'American': American, 'Other': Other}
-airlines.append(dict)
+storted = sorted(store.items(), key=lambda x:x[1])
+airlines_seen = dict(storted)
+print(airlines_seen)
 
-print(airlines)
-# print(f'Southwest:{Southwest} \nAmerican:{American} \nDelta:{American} \nOther:{Other} \nFrontier:{Frontier}')
-
-another_json_object = json.dumps(airlines, indent=1)
+# dict = {'Southwest': Southwest, 'Delta': Delta, 'Frontier': Frontier, 'American': American, 'Other': Other}
+# airlines.append(dict)
+#
+# print(airlines)
+# # print(f'Southwest:{Southwest} \nAmerican:{American} \nDelta:{American} \nOther:{Other} \nFrontier:{Frontier}')
+#
+another_json_object = json.dumps(airlines_seen, indent=1)
 
 # create the json file from the object
 with open('airlines.json', 'w') as outfile:
-   outfile.write(another_json_object)
+    outfile.write(another_json_object)
