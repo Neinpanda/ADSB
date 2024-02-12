@@ -1,13 +1,18 @@
 {
+ "Frontier Airlines": 1,
+ "South Central Air": 1,
+ "Key Lime Air": 1,
+ "Mesa Airlines": 1,
+ "Aerolineas Ejecutivas": 1,
  "Friendship Air Alaska": 1,
- "Spirit Airlines": 1,
- "Sun Country Airlines": 1,
- "Federal Express": 2,
- "United Airlines": 3,
+ "AeroM\u00e9xico": 1,
+ "Hawaiian Airlines": 1,
+ "Allegiant Air": 2,
+ "United Airlines": 2,
  "Delta Air Lines": 3,
- "American Airlines": 4,
- "SkyWest": 5,
+ "SkyWest": 4,
  "NetJets": 5,
- "Southwest Airlines": 10,
- "Unknown": 26
+ "American Airlines": 6,
+ "Southwest Airlines": 11,
+ "Unknown": 22
 }

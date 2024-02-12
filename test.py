@@ -19,7 +19,7 @@ airplane = {}
 loop_count = 0
 primary_key = 'Hex'
 
-while loop_count < 5:
+while loop_count < 20:
     first_response = urlopen(url)
     second_response = first_response.read()
     json_data = json.loads(second_response)
@@ -49,7 +49,7 @@ while loop_count < 5:
             #     else:
             #         airplane.append(dict)
     loop_count += 1
-    time.sleep(1)
+    time.sleep(5)
             # print(hex)
             # airplane.append(flight_number)
 
