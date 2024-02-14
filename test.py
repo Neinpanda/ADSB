@@ -1,6 +1,8 @@
 from urllib.request import urlopen
 import json
 import time
+import matplotlib.pyplot as plt
+
 
 with open('airline_list.json', 'r') as lots_of_airlines:
     airline_list = json.load(lots_of_airlines)
@@ -19,7 +21,7 @@ airplane = {}
 loop_count = 0
 primary_key = 'Hex'
 
-while loop_count < 20:
+while loop_count < 1:
     first_response = urlopen(url)
     second_response = first_response.read()
     json_data = json.loads(second_response)
@@ -49,7 +51,7 @@ while loop_count < 20:
             #     else:
             #         airplane.append(dict)
     loop_count += 1
-    time.sleep(5)
+    time.sleep(1)
             # print(hex)
             # airplane.append(flight_number)
 
@@ -93,3 +95,21 @@ another_json_object = json.dumps(airlines_seen, indent=1)
 # create the json file from the object
 with open('airlines.json', 'w') as outfile:
     outfile.write(another_json_object)
+
+labels = []
+sizes = []
+
+for x, y in airlines_seen.items():
+    labels.append(x)
+    sizes.append(y)
+
+# plt.pie(sizes, labels=labels)
+# plt.axis('equal')
+
+plt.bar(airlines_seen.keys(), airlines_seen.values(), color='c')
+plt.xticks(rotation=75)
+plt.xlabel('Airlines')
+plt.ylabel('Frequency')
+plt.title('Airlines Over Me')
+plt.tight_layout()
+plt.show()
