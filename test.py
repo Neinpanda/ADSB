@@ -21,7 +21,7 @@ airplane = {}
 loop_count = 0
 primary_key = 'Hex'
 
-while loop_count < 1:
+while loop_count < 12:
     first_response = urlopen(url)
     second_response = first_response.read()
     json_data = json.loads(second_response)
@@ -107,9 +107,10 @@ for x, y in airlines_seen.items():
 # plt.axis('equal')
 
 plt.bar(airlines_seen.keys(), airlines_seen.values(), color='c')
-plt.xticks(rotation=75)
+plt.xticks(rotation=90)
 plt.xlabel('Airlines')
 plt.ylabel('Frequency')
 plt.title('Airlines Over Me')
 plt.tight_layout()
-plt.show()
+# plt.show()
+plt.savefig('Airlines_Over_Me')
