@@ -42,7 +42,7 @@ for data in read_json['aircraft']:
         ground_speed = data['gs']
 
         tail_number = plane_regs.get(hex_code, ['not found'])[0]
-        craft_info = plane_regs.get(hex_code, ['not found', 'not found'])  # Default to a list with at least two items
+        craft_info = plane_regs.get(hex_code, ['not found','not found','not found'])  # Default to a list with at least two items
 
         # Check if the list has a second element (the aircraft model)
         if len(craft_info) > 1 and craft_info[1] != 'not found':
@@ -52,10 +52,20 @@ for data in read_json['aircraft']:
 
         detailed_craft = craft_type.get(aircraft_model, ['not found'])[0]
         #print(detailed_craft)
+        military = plane_regs.get(hex_code, ['not found','not found','not found'])
+        if len(military) > 1 and military[2] != 'not found':
+            military_status = military[2]  # Assign the model if available
+        else:
+            military_status = 'unknown'
+            if military_status == '10':
+                military_tag = "Yes"
+            else:
+                military_tag = "No"
+
 
         if tail_number != 'not found':
             airplane[hex_code] = {'Tail Number': tail_number, 'Airline': airline_name, 'Flight': flight_number, 'Altitude': altitude, 'Latitude': latitude,
-                         'Longitude': longitude, 'Ground Speed': ground_speed, 'Aircraft Model': detailed_craft}
+                         'Longitude': longitude, 'Ground Speed': ground_speed, 'Aircraft Model': detailed_craft, 'Military': military_tag}
 
 output_file = 'processed_airplane_data.json'
 try:
