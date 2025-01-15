@@ -57,11 +57,12 @@ for data in read_json['aircraft']:
             military_status = military[2]  # Assign the model if available
         else:
             military_status = 'unknown'
-            if military_status == '10':
-                military_tag = "Yes"
-            else:
-                military_tag = "No"
 
+        military_tag = 'unknown'
+        if military_status == '10':
+            military_tag = "Yes"
+        else:
+            military_tag = "No"
 
         if tail_number != 'not found':
             airplane[hex_code] = {'Tail Number': tail_number, 'Airline': airline_name, 'Flight': flight_number, 'Altitude': altitude, 'Latitude': latitude,
