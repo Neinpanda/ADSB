@@ -1,83 +1,66 @@
+#dependencies
 from urllib.request import urlopen
 import json
 import time
-
-url = "http://adsb.sirver.co:2222/tar1090/data/aircraft.json"
+import codecs
 
 airplane = {}
-loop_count = 0
-primary_key = 'Hex'
 
-while loop_count < 20:
-    first_response = urlopen(url)
-    second_response = first_response.read()
-    json_data = json.loads(second_response)
+#url for airline .json
+url = "http://planes.dirtroads.us:2222"
 
-    for data in json_data['aircraft']:
-        if {'flight', 'hex', 'alt_baro', 'lat', 'lon', 'gs'} <= data.keys():
-            # print(data['flight'], data['hex'])
-            spaced_flight_number = str(data['flight'])
-            flight_number = spaced_flight_number.replace(' ', '')
+with open('aircrafts.json', 'r') as g:
+    plane_regs = json.load(g)
+#print(us_airlines)
+with open('limited_airlines.json', 'r') as b:
+    airlines_short = json.load(b)
+with open('types.json', 'r') as h:
+    craft_type = json.load(h)
 
-            hex = data['hex']
-            altitude = data['alt_baro']
-            latitude = data['lat']
-            longitude = data['lon']
-            ground_speed = data['gs']
+try:
+    open_url = urlopen(url)
+    read_url = open_url.read()
+    read_json = json.loads(read_url)
+except Exception as e:
+    print(f"Error fetching or parsing data: {e}")
+    exit()\
 
-            airplane[hex] = {'Flight': flight_number, 'Altitude': altitude, 'Latitude': latitude, 'Longitude': longitude, 'Ground Speed': ground_speed}
+for data in read_json['aircraft']:
+    if {'flight', 'hex', 'alt_baro', 'lat', 'lon', 'gs'} <= data.keys():
+        spaced_flight_number = str(data['flight'])
+        flight_number = spaced_flight_number.replace(' ', '')
 
-            # for witch in airplane:
-            #     if witch[primary_key] == dict[primary_key]:
-            #         print(f'Value exists: {dict}')
-            #     else:
-            #         airplane.append(dict)
-    loop_count += 1
-    time.sleep(2)
-            # print(hex)
-            # airplane.append(flight_number)
+        airline_name = 'Other'
+        potential_icao = flight_number[0:3]
+        if potential_icao in airlines_short:
+            airline_name = airlines_short[potential_icao]
 
-# print(airplane)
+        hex_code = data['hex'].upper()
+        altitude = data['alt_baro']
+        latitude = data['lat']
+        longitude = data['lon']
+        ground_speed = data['gs']
 
-# print(airplane[list(airplane.keys())[1]])
+        tail_number = plane_regs.get(hex_code, ['not found'])[0]
+        craft_info = plane_regs.get(hex_code, ['not found', 'not found'])  # Default to a list with at least two items
 
-# create json object from the stored adsb list
-json_object = json.dumps(airplane, indent=1)
+        # Check if the list has a second element (the aircraft model)
+        if len(craft_info) > 1 and craft_info[1] != 'not found':
+            aircraft_model = craft_info[1]  # Assign the model if available
+        else:
+            aircraft_model = 'unknown'  # If not found or only one element, set to 'unknown'
 
-# create the json file from the object
-with open("flights.json", "w") as outfile:
-   outfile.write(json_object)
+        detailed_craft = craft_type.get(aircraft_model, ['not found'])[0]
+        #print(detailed_craft)
 
-Delta = 0
-American = 0
-Southwest = 0
-Other = 0
-Frontier = 0
-airlines = []
+        if tail_number != 'not found':
+            airplane[hex_code] = {'Tail Number': tail_number, 'Airline': airline_name, 'Flight': flight_number, 'Altitude': altitude, 'Latitude': latitude,
+                         'Longitude': longitude, 'Ground Speed': ground_speed, 'Aircraft Model': detailed_craft}
 
-for hex in airplane.keys():
-    # print(airplane[hex])
-
-    airline = airplane[hex]['Flight']
-    if 'SWA' in airline:
-        Southwest += 1
-    elif 'AAL' in airline:
-        American += 1
-    elif 'DAL' in airline:
-        Delta += 1
-    elif 'FFT' in airline:
-        Frontier += 1
-    else:
-        Other += 1
-
-dict = {'Southwest': Southwest, 'Delta': Delta, 'Frontier': Frontier, 'American': American, 'Other': Other}
-airlines.append(dict)
-
-print(airlines)
-# print(f'Southwest:{Southwest} \nAmerican:{American} \nDelta:{American} \nOther:{Other} \nFrontier:{Frontier}')
-
-another_json_object = json.dumps(airlines, indent=1)
-
-# create the json file from the object
-with open("airlines.json", "w") as outfile:
-   outfile.write(another_json_object)
+output_file = 'processed_airplane_data.json'
+try:
+    with open(output_file, 'w') as outfile:
+        json.dump(airplane, outfile, indent=4)
+    print(f"Data successfully saved to {output_file}")
+except Exception as e:
+    print(f"Error saving data: {e}")
